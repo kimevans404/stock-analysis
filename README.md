@@ -2,22 +2,29 @@
 
 ## Overview of project
 
-### The purpose of this project is to help a client automate the analysis of stockmarket data using Visual Basic for Applications. VBA code was written including a nested `For` loop that analysed a small data set. The code was then refactored to run more efficiently with a single loop in order to analyze larger stock datasets.
+### The purpose of this project is to help a client automate the analysis of stockmarket data using Visual Basic for Applications. VBA code was written including a nested `For` loop that analysed a small data set. The code was then refactored to run more efficiently in order to analyze larger stock datasets.
 
 ## Results
 
 ### Original VBA Code from Module 2
 
-In the original code, a nested `For` loop was created to run through the entire dataset from top to bottom multiple times before returning the analysis output. When running through the data this way it appeared to be an instantaneous result, but adding a timer allows us to see precisely how long the code ran. Below is attached the timer results from the 2017 and 2018 stock market dataset analyses from the workbook.
+In the original code, a nested `For` loop was created to run through the entire dataset from top to bottom multiple times before returning the analysis output. 
+
+<img width="253" alt="Nested-Loop" src="https://user-images.githubusercontent.com/111471057/188754195-35d37da9-8f8b-4eae-b280-0250e9b0a8b4.png">
+
+When running through the data this way it appeared to be an instantaneous result, but adding a timer allows us to see precisely how long the code ran. Below is attached the timer results from the 2017 and 2018 stock market dataset analyses from the workbook.
 
 ![Original_Code_2017](https://user-images.githubusercontent.com/111471057/188507732-a3e1eea2-ab3c-4a42-8459-ceb2ee98719c.png)       ![Original_Code_2018](https://user-images.githubusercontent.com/111471057/188507738-24a07831-976a-45a0-ace5-502d98e8e692.png)
 
 ### Refactored VBA Code from Challenge
 
-For the challenge, the VBA code has been edited, or refactored, to run more efficiently by removing the nested `For` loop and using an added index variable. With this adjustment the code will run through the entire dataset once before returning the analysis output. The same timer is included in the refactored code to show the improved run time, shown below. 
+For the challenge, the VBA code has been edited, or refactored, to run more efficiently by removing the nested `For` loop and using an added index variable. 
+
+<img width="514" alt="Variable" src="https://user-images.githubusercontent.com/111471057/188754607-2e7a2ee6-ec3b-4e07-85e3-111c28992e82.png">
+
+With this adjustment the code will run through the entire dataset once before returning the analysis output. The same timer is included in the refactored code to show the improved run time, shown below. 
 
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/111471057/188508027-d1da57a8-b423-44fe-addd-6b1eaef71f40.png)     ![VBA_Challenge_2018](https://user-images.githubusercontent.com/111471057/188508030-4218a0fe-7343-4ce7-a1da-4ada127a3280.png)
-
 
 ### Summary
 
